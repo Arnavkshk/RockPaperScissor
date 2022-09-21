@@ -1,0 +1,145 @@
+body{
+    background: rgba(50,50,50,0.3) url('new.png');
+    background-blend-mode: darken;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    color: #110152;
+    align-items:center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60%;
+    overflow-y: hidden;
+    font-weight: 600;
+}
+#top{
+   text-align: center;
+   font-size: 2em;
+}
+#userc{
+  color: rgb(9, 156, 9);
+}
+#comc{
+  color: rgb(184, 0, 0);
+}
+#rock{
+    background: url('rock.jpg');
+    margin: 20px;
+    padding: 20px;
+    width: 180px;
+    height: 180px; 
+    zoom: 0.1;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 45%;
+}
+#rock:active{
+    transform: translateY(4px);
+  }
+#paper{
+    background: url('paper.jpg');
+    margin: 20px;
+    padding: 20px;
+    width: 180px;
+    height: 180px; 
+    background-position: 70%;
+    border-radius: 45%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#paper:active{
+    transform: translateY(4px);
+  }
+  
+  #scissors{
+      background: url('scissorsss.jpg');
+      margin: 20px;
+      padding: 20px;
+      width: 180px;
+      height: 180px; 
+      background-position: 50%;
+      background-size: cover;
+      border-radius: 45%;
+    }
+    #scissors:active{
+        transform: translateY(4px);
+      }
+#your{
+  text-align: center;
+  font-size: 2em;
+}
+#gamescreen{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.1em;
+  height : 35vh;
+  
+}
+#result{
+  text-align: center;
+  font-size: 2em;
+  width: 400px;
+}
+#scorey{
+    text-align: center;
+    font-size: 2em;
+}
+#comp{
+    text-align: center;
+    font-size: 2em;
+}
+#scorec{
+    text-align: center;
+    font-size: 2em;
+}
+#continue{
+    text-align: center;
+    font-size: 2em;
+}
+#res{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #404796;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  #res:hover{background-color: #228d9f}
+  
+  #res:active{
+    background-color: #3e6a8e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .anm{
+    width: 130px;
+    
+  }
+
+  .anmt{
+    animation: anmn 0.33s linear;
+  }
+
+  @keyframes anmn{
+    0%{
+      width: 50px;
+      opacity: 0.2;
+    }
+    100%{
+      width: 130px;
+      opacity: 1;
+    }
+  }
+
+  .contx{
+    height: 120px;
+    
+  }
