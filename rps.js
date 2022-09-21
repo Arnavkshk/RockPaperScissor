@@ -22,13 +22,13 @@ else{
 }
 
 if(compch=="rock"){
-    document.getElementById("comcimg").src = "rock2.png";
+    document.getElementById("comcimg").src = "./rock2.png";
 }
 else if(compch=="paper"){
-    document.getElementById("comcimg").src = "paper.png";
+    document.getElementById("comcimg").src = "./paper.png";
 }
 else{
-    document.getElementById("comcimg").src = "scissors2.png";
+    document.getElementById("comcimg").src = "./scissors2.png";
 }
 
 if(document.querySelector('.anm').classList != "anmt"){
@@ -77,19 +77,19 @@ document.getElementById("res").addEventListener("click",rese);
 function rok(){
     playerch="rock";
     console.log(playerch);
-    document.getElementById("usecimg").src = "rock2.png";
+    document.getElementById("usecimg").src = "./rock2.png";
     com();
 }
 function peper(){
     playerch="paper";
     console.log(playerch);
-    document.getElementById("usecimg").src = "paper.png";
+    document.getElementById("usecimg").src = "./paper.png";
     com();
 }
 function scisso(){
     playerch="scissors";
     console.log(playerch);
-    document.getElementById("usecimg").src = "scissors2.png";
+    document.getElementById("usecimg").src = "./scissors2.png";
     com();
 }
 
@@ -98,7 +98,7 @@ function rese(){
     playlerscore=0;
     st = "your score is : "+playlerscore+" / Computer Score is : "+computerscore;
     document.getElementById("result").innerHTML="select your choice to start the game";
-    document.getElementById("comcimg").src = "cross.png";
-    document.getElementById("usecimg").src = "cross.png";
+    document.getElementById("comcimg").src = "./cross.png";
+    document.getElementById("usecimg").src = "./cross.png";
     document.getElementById("your").innerHTML = st;
 }

@@ -1,5 +1,5 @@
 body{
-    background: rgba(50,50,50,0.3) url('new.png');
+    background: rgba(50,50,50,0.3) url('./new.png');
     background-blend-mode: darken;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
@@ -23,7 +23,7 @@ body{
   color: rgb(184, 0, 0);
 }
 #rock{
-    background: url('rock.jpg');
+    background: url('./rock.jpg');
     margin: 20px;
     padding: 20px;
     width: 180px;
@@ -37,7 +37,7 @@ body{
     transform: translateY(4px);
   }
 #paper{
-    background: url('paper.jpg');
+    background: url('./paper.jpg');
     margin: 20px;
     padding: 20px;
     width: 180px;
@@ -52,7 +52,7 @@ body{
   }
   
   #scissors{
-      background: url('scissorsss.jpg');
+      background: url('./scissorsss.jpg');
       margin: 20px;
       padding: 20px;
       width: 180px;
