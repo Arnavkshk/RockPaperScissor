@@ -9,7 +9,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60%;
-    overflow-y: hidden;
     font-weight: 600;
 }
 #top{
@@ -141,4 +140,55 @@ body{
   .contx{
     height: 120px;
     
+  }
+
+  @media (max-width: 600px){
+    #gamescreen{
+      flex-direction: column;
+      height: 50vh;
+      
+    }
+    #rock{
+      margin: 0px;
+      padding: 0px;
+      width: 100px;
+      height: 100px;  
+      }
+    #paper{
+      margin: 0px;
+      padding: 0px;
+      width: 100px;
+      height: 100px; 
+      }
+    #scissors{
+      margin: 0px;
+      padding: 0px;
+      width: 100px;
+      height: 100px; 
+      }
+  }
+  @media (max-width: 400px){
+    #gamescreen{
+      flex-direction: column;
+      height: 55vh;
+      
+    }
+    #rock{
+      margin: 0px;
+      padding: 0px;
+      width: 100px;
+      height: 100px;  
+      }
+    #paper{
+      margin: 0px;
+      padding: 0px;
+      width: 100px;
+      height: 100px; 
+      }
+    #scissors{
+      margin: 0px;
+      padding: 0px;
+      width: 100px;
+      height: 100px; 
+      }
   }
