@@ -10,10 +10,17 @@ body{
     background-size: cover;
     background-position: 60%;
     font-weight: 600;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    background-attachment: fixed;
+    
 }
+
 #top{
    text-align: center;
    font-size: 2em;
+   margin-bottom: 30px;
 }
 #userc{
   color: rgb(9, 156, 9);
@@ -107,6 +114,7 @@ body{
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+    bottom: 0;
   }
   
   #res:hover{background-color: #228d9f}
@@ -143,6 +151,20 @@ body{
   }
 
   @media (max-width: 600px){
+    body{
+      background-image: url("./backgroundd.jpg");
+      background-position: center;
+      background-size: cover;
+      aspect-ratio: 4/11;
+      scrollbar-width: none;
+    }
+
+    #top{
+      font-size: 17px;
+    }
+    #result{
+      font-size: 16px;
+    }
     #gamescreen{
       flex-direction: column;
       height: 50vh;
@@ -168,6 +190,16 @@ body{
       }
   }
   @media (max-width: 400px){
+    body{
+      background-image: url("./backgroundd.jpg");
+      background-position: center;
+      font-size: 1.1em;
+      background-size: cover;
+      scrollbar-width: none;
+    }
+    #result{
+      font-size: 19px;
+    }
     #gamescreen{
       flex-direction: column;
       height: 55vh;
